@@ -1,8 +1,8 @@
 ---
-title: "How does residential electricity consumption respond to electricity efficiency improvement? Evidence from 287 prefecture-level cities in China"
+title: 'How does residential electricity consumption respond to electricity efficiency improvement? Evidence from 287 prefecture-level cities in China'
 collection: publications
 category: manuscripts
-permalink: /publication/Energy-Policy-2022
+permalink: /publication/2022-Energy-Policy-rebound-effect
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2022-10
 venue: 'Energy Policy'

@@ -2,7 +2,7 @@
 title: "Impact of CSR on stock return resilience during the 2020 public health emergency: Evidence from the Chinese financial market"
 collection: publications
 category: manuscripts
-permalink: /publication/IFRA-2024
+permalink: /publication/2024-IFRA-csr-and-stock-return
 # excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2024-10
 venue: 'International Review of Financial Analysis'
