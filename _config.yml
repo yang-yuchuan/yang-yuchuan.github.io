@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "YANG Yuchuan"
 title_separator          : "-"
 name                     : &name "YANG Yuchuan"
 description              : &description "personal description"

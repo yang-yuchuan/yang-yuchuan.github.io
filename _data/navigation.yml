@@ -11,5 +11,7 @@ main:
     url: /teaching/
   - title: "CV"
     url: /files/CV.pdf
+  - title: "Shadow CV"
+    url: /files/shadowCV.pdf
   - title: "Contact"
     url: /contact/
