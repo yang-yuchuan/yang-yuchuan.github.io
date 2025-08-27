@@ -16,10 +16,10 @@
 \usepackage{titlesec} % for customizing section titles
 \usepackage{tabularx} % for making tables with fixed width columns
 \usepackage{array} % tabularx requires this
-\usepackage[dvipsnames]{xcolor} % for coloring text
-\definecolor{primaryColor}{RGB}{0, 79, 144} % define primary color
+%\usepackage[dvipsnames]{xcolor} % for coloring text
+%\definecolor{primaryColor}{RGB}{0, 79, 144} % define primary color
 \usepackage{enumitem} % for customizing lists
-\usepackage{fontawesome5} % for using icons
+%\usepackage{fontawesome5} % for using icons
 \usepackage{amsmath} % for math
 \usepackage[
     pdftitle={YANG Yuchuan's shadow CV},
@@ -34,23 +34,13 @@
 \usepackage{lastpage} % for getting the total number of pages
 \usepackage{changepage} % for one column entries (adjustwidth environment)
 \usepackage{paracol} % for two and three column entries
-\usepackage{ifthen} % for conditional statements
+%\usepackage{ifthen} % for conditional statements
 \usepackage{needspace} % for avoiding page brake right after the section title
-\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
-
-% Ensure that generate pdf is machine readable/ATS parsable:
-\ifPDFTeX
-    \input{glyphtounicode}
-    \pdfgentounicode=1
-    % \usepackage[T1]{fontenc} % this breaks sb2nov
-    \usepackage[utf8]{inputenc}
-    \usepackage{lmodern}
-\fi
 
 
 
 % Some settings:
-\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+%\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
 \pagestyle{empty} % no header or footer
 \setcounter{secnumdepth}{0} % no section numbering
 \setlength{\parindent}{0pt} % no indentation
@@ -149,12 +139,12 @@
 
 
 \begin{document}
-    \newcommand{\AND}{\unskip
-        \cleaders\copy\ANDbox\hskip\wd\ANDbox
-        \ignorespaces
-    }
-    \newsavebox\ANDbox
-    \sbox\ANDbox{}
+%    \newcommand{\AND}{\unskip
+%        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+%        \ignorespaces
+%    }
+%    \newsavebox\ANDbox
+%    \sbox\ANDbox{}
 
     \placelastupdatedtext
     \begin{header}
@@ -169,23 +159,6 @@
 \raggedright
 \textit{Inspired by Prof. Sara McLaughlin Mitchell, this shadow CV aims to provide information about my academic failures to complement normal CV which only lists successes. Personal and contact information are ignored. Some most recent works, like unpresented working papers, are excluded from this list.}
         \end{minipage}
-%        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}China}%
-%        \kern 0.25 cm%
-%        \AND%
-%        \kern 0.25 cm%
-%        \mbox{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}ycyang1227@outlook.com}%
-%        \kern 0.25 cm%
-%        \AND%
-%        \kern 0.25 cm%
-%        \mbox{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}[+86] 199 2131 5375}%
-%        \kern 0.25 cm%
-%        \AND%
-%        \kern 0.25 cm%
-%        \mbox{\href{https://yang-yuchuan.github.io/}{\color{black}{\footnotesize\faLink}\hspace*{0.13cm}personal website}}%
-%        \kern 0.25 cm%
-%        \AND%
-%        \kern 0.25 cm%
-%        \mbox{\href{https://github.com/yourusername}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}yang-yuchuan}}%
     \end{header}
 
     \vspace{0.3 cm - 0.3 cm}
@@ -201,10 +174,6 @@ Chinese University of Hong Kong (PhD in Economics)
 \end{paper}
 
 \begin{paper}
-Stockholm School of Economics (PhD in Economics)
-\end{paper}
-
-\begin{paper}
 University of Zurich (PhD in Economics)
 \end{paper}
 
@@ -215,15 +184,14 @@ University of Zurich (PhD in Economics)
 
 
 
-%\section{MANUSCRIPTS REJECTED BUT EVENTUALLY PUBLISHED}
-
-
-
-\section{MANUSCRIPTS REJECTED AND NOT YET PUBLISHED}
+\section{MANUSCRIPTS REJECTED BUT EVENTUALLY PUBLISHED}
 
 \begin{paper}
-	Zhang, Y., Yuchuan Yang. ``Can Governmental Innovation Subsidies Promote Firm Innovative Economic Efficiency? Evidence from China''. Jan 2025. Desk-rejected by \textit{Research Policy, Journal of Comparative Economics, Journal of Business Research, Technovation.}
+	Zhang, Y., Yuchuan Yang. ``Can Governmental Innovation Subsidies Promote Firm Innovative Economic Efficiency? Evidence from China''. 2025. Desk-rejected by \textit{Research Policy, Journal of Comparative Economics, Journal of Business Research, Technovation.} Published in \textit{International Review of Financial Analysis}
 \end{paper}
+
+
+%\section{MANUSCRIPTS REJECTED AND NOT YET PUBLISHED}
 
 
 \section{MANUSCRIPTS REJECTED AND WERE GIVEN UP}
