@@ -1,6 +1,8 @@
 main:
   - title: "Home"
     url: /
+  - title: "CV"
+    url: /files/CV.pdf
   - title: "Job Market Paper"
     url: /jmp/
   - title: "Working Papers"
@@ -9,8 +11,6 @@ main:
     url: /publications/
   - title: "Teaching"
     url: /teaching/
-  - title: "CV"
-    url: /files/CV.pdf
   - title: "Shadow CV"
     url: /files/shadowCV.pdf
   - title: "Contact"
