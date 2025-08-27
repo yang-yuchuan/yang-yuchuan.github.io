@@ -22,10 +22,10 @@
 \usepackage{fontawesome5} % for using icons
 \usepackage{amsmath} % for math
 \usepackage[
-    pdftitle={John Doe's CV},
-    pdfauthor={John Doe},
+    pdftitle={YANG Yuchuan's CV},
+    pdfauthor={YANG Yuchuan},
     pdfcreator={LaTeX with RenderCV},
-    colorlinks=true,
+    colorlinks=false,
     urlcolor=primaryColor
 ]{hyperref} % for links, metadata and bookmarks
 \usepackage[pscoord]{eso-pic} % for floating text on the page
@@ -145,12 +145,6 @@
 \newenvironment{paper}{\vspace{.2cm}\begin{samepage}\begin{onecolentry}}{\end{onecolentry}\end{samepage}\vspace{0.2cm}}
 %\newenvironment{pre}{\vspace{.2cm}\begin{tabularx}{\textwidth}{@{}p{1.5cm}X@{}}}{\end{tabularx}\vspace{.2cm}}
 
-\hypersetup{
-	pdftitle={YANG Yuchuan's CV},  % Chrome 显示的标题
-	pdfauthor={YANG Yuchuan},
-	pdfdisplaydoctitle=true,    % 强制显示标题而非文件名
-}
-
 
 \begin{document}
     \newcommand{\AND}{\unskip
@@ -162,7 +156,7 @@
 
     \placelastupdatedtext
     \begin{header}
-        \textbf{\fontsize{24 pt}{24 pt}\selectfont Yuchuan Yang}
+        \textbf{\fontsize{24 pt}{24 pt}\selectfont YANG Yuchuan}
 
         \vspace{0.3 cm}
 
@@ -175,18 +169,27 @@
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}[+86] 199 2131 5375}%
-        \kern 0.25 cm%
-        \AND%
-        \kern 0.25 cm%
-%        \mbox{\href{https://yourwebsite.com/}{\color{black}{\footnotesize\faLink}\hspace*{0.13cm}yourwebsite.com}}%
+%        \mbox{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}[+86] 199 2131 5375}%
 %        \kern 0.25 cm%
 %        \AND%
 %        \kern 0.25 cm%
-        \mbox{\href{https://github.com/yourusername}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}yang-yuchuan}}%
+        \mbox{\href{https://yang-yuchuan.github.io}{\color{black}{\footnotesize\faLink}\hspace*{0.13cm}personal website}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\href{https://github.com/yang-yuchuan}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}yang-yuchuan}}%
     \end{header}
 
     \vspace{0.3 cm - 0.3 cm}
+    
+\begin{center}
+	\begin{minipage}{0.7\textwidth}
+	Incoming MRes in Economics student at the European University Institute.
+	Eager to pursue doctoral studies in advanced economic research. 
+	Self-taught in mathematics (including real analysis, differential equations, and dynamic optimization) and programming.
+	A motivated researcher committed to addressing complex economic challenges through rigorous analysis.
+	\end{minipage}
+\end{center}
 
 \section{EDUCATION}
 
@@ -202,7 +205,7 @@
 	\begin{highlights}
 		\item GPA: 3.94/4.0
 		\item Grade: 92/100
-		\item \textbf{Coursework:} Microeconomics, Macroeconomics, Econometrics
+%		\item \textbf{Coursework:} Advanced Microeconomics (4.0), Advanced Macroeconomics (4.0), Advanced Econometrics (4.0)
 	\end{highlights}
 \end{onecolentry}
 
@@ -224,15 +227,22 @@
 \end{onecolentry}
 
 
+%\section{RESEARCH EXPERIENCES}
+%
+%\begin{paper}
+%RA to Prof. Yupeng Zhang, East China Normal University
+%
+%
+%\end{paper}
 
 \section{PUBLICATIONS}
 
 \begin{paper}
-Ouyang Xiaoling, \textbf{Yuchuan Yang}, and Kerui Du (2024), ``Impact of CSR on stock return resilience during the 2020 public health emergency: Evidence from the Chinese financial market'', \textit{International Review of Financial Analysis}, 103702.
+OUYANG, Xiaoling; YANG, Yuchuan; DU, Kerui. 2024. ``Impact of CSR on stock return resilience during the 2020 public health emergency: Evidence from the Chinese financial market'', \textit{International Review of Financial Analysis}, 103702.
 \end{paper}
 
 \begin{paper}
-Ouyang Xiaoling, \textbf{Yuchuan Yang}, Kerui Du, and Zhenyu Cheng (2022), ``How does residential electricity consumption respond to electricity efficiency improvement? Evidence from 287 prefecture-level cities in China'', \textit{Energy Policy}, 171, 113302.
+OUYANG, Xiaoling; YANG, Yuchuan; DU, Kerui; CHENG, Zhenyu. 2022. ``How does residential electricity consumption respond to electricity efficiency improvement? Evidence from 287 prefecture-level cities in China'', \textit{Energy Policy}, 171, 113302.
 \end{paper}
 
 
@@ -240,16 +250,25 @@ Ouyang Xiaoling, \textbf{Yuchuan Yang}, Kerui Du, and Zhenyu Cheng (2022), ``How
 \section{WORK IN PROGRESS}
 
 \begin{paper}
-Dang Yanyu, \textbf{Yuchuan Yang} (2025), ``Structural Change and Growth in a Data Economy''.
+DANG, Yanyu; YANG, Yuchuan, ``Structural Change and Growth in a Data Economy''.
+
+\hspace{1em}
+This paper uses a two-sector growth model with endogenous technical change to study how the incorporation of data factor influences the difference in TFP growth rates between service and good sectors, and how it shapes structural transformation.
 \end{paper}
 
 \begin{paper}
-Zhang Yupeng, \textbf{Yuchuan Yang} (2025), ``Can Governmental Innovation Subsidies Promote Firm Innovative Economic Efficiency? Evidence from China''.
+ZHANG, Yupeng; YANG, Yuchuan, ``Can Governmental Innovation Subsidies Promote Firm Innovative Economic Efficiency? Evidence from China''.
+
+\hspace{1em}
+This paper studies the impact of governmental innovation subsidies on firms' ability to transform R\&D inputs into final economic returns.
 \end{paper}
 
-\begin{paper}
-	Zhang Yupeng, \textbf{Yuchuan Yang} (2025), ``The Impacts of China’s Carbon Emission Trading System Pilots on Corporate Innovation: A Discontinuity-Based Approach''.
-\end{paper}
+%\begin{paper}
+%	Zhang Yupeng, \textbf{Yuchuan Yang}, ``The Impacts of China’s Carbon Emission Trading System Pilots on Corporate Innovation: A Discontinuity-Based Approach''.
+%	
+%\hspace{1em}
+%This project uses a regression discontinuity design to identify the effect of carbon emissions trading system on corporate innovation, leveraging the fact that China's ETS regulates firms based on whether their prior carbon emissions exceeded specific thresholds.
+%\end{paper}
 
 
 
@@ -274,20 +293,35 @@ Zhang Yupeng, \textbf{Yuchuan Yang} (2025), ``Can Governmental Innovation Subsid
 
 
 
+\section{TEACHING EXPERIENCES}
+
+\vspace{.2cm}
+\begin{tabularx}{\textwidth}{@{}p{.2cm} @{}p{2cm} X@{}}
+	& Spring 2024 & TA of the postgraduate \textit{Macroeconomics} course at the East China Normal University. The lecturer is Prof. Tibiao Chen. The course covered key neoclassical growth models and basic RBC models, as well as fundamental knowledge of optimal control and dynamic programming.
+\end{tabularx}
+
+
 \section{COMMUNITY CONTRIBUTIONS}
 
 \vspace{.2cm}
-\begin{tabularx}{\textwidth}{@{}p{.2cm} @{}p{1.5cm} X@{}}
+\begin{tabularx}{\textwidth}{@{}p{.2cm} @{}p{2cm} X@{}}
 	& Feb 2024 & Identified and resolved an issue related to unbalanced panel data in the \texttt{eventstudyr} package by Freyaldenhoven et al. (NBER 2021), with the solution documented in \href{https://github.com/JMSLab/eventstudyr/issues/46}{issue 46}.
 \end{tabularx}
 
 \vspace{.2cm}
+\begin{tabularx}{\textwidth}{@{}p{.2cm} @{}p{2cm} X@{}}
+	& May 2024-- & Author and maintainer of \href{https://github.com/yang-yuchuan/yycr}{\texttt{yycr}} package on GitHub, which contains several \texttt{R} functions that integrate a series of commonly-used operations in one line.
+\end{tabularx}
 
 
 \section{OTHER SKILLS AND INTERESTS}
 
 \begin{paper}
-	\textbf{Programming:} R, Stata (very good); \LaTeX, Python (good); Julia, MATLAB (basic).
+	\textbf{Programming:} R, Stata, \LaTeX, Python, Julia, MATLAB.
+\end{paper}
+
+\begin{paper}
+	\textbf{Languages:} Mandarin (native), English (fluent), Italian (basic), Spanish (basic).
 \end{paper}
 
 \end{document}
